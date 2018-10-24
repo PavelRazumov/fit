@@ -1,0 +1,27 @@
+
+footer{
+    display: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: calc(120px + ((100% - 260px) / 12 * 6));
+    &__list{
+        display: flex;
+        list-style-type: none;
+        &-item{
+            margin-right: 15px;
+        }
+        &-link {
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}

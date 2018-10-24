@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.activity__title {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px blue, 2px 2px #777;
+  color: white;
+  transition: all 1s;
+}
+.subhead {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+.subhead__button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #0181b8;
+  border-radius: 3px;
+  padding: 0 5px 2px 5px;
+  color: white;
+  background: #0181b8;
+}
+.activity__info {
+  width: 60%;
+  display: flex;
+  color: white;
+}
+.activity__info-mv-minute {
+  margin-right: 140px;
+}
+.mv-minute__heading {
+  font-size: 26px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.calories__heading {
+  font-size: 26px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content__icon {
+  width: 90px;
+  height: 90px;
+}
+.content__heading {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px white, 2px 2px #777;
+  color: black;
+  transition: all 1s;
+}
+.content__link {
+  text-decoration: none;
+  border: 1px solid #0181b8;
+  border-radius: 3px;
+  padding: 0 5px 2px 5px;
+  color: white;
+  background: #0181b8;
+}
+.content__button {
+  display: none;
+}
+.content__activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #4d86f6;
+  height: 70%;
+  align-items: center;
+}
+.content__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+}
+
+footer {
+  display: none;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: calc(120px + ((100% - 260px) / 12 * 6));
+}
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+.nav__list-item {
+  margin-right: 15px;
+}
+.nav__list-link {
+  text-decoration: none;
+  font-size: 20px;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-shadow: 0 2px 3px 0 #0181b8;
+}
+.header__image {
+  width: 50px;
+  height: 50px;
+  margin: 8px 0px 8px 8px;
+}
+.header__link {
+  text-decoration: none;
+}

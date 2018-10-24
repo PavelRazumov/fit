@@ -1,0 +1,47 @@
+.content {
+   
+    &__icon{
+        width: 90px;
+        height: 90px;
+      //  margin-top: 10px;
+    }
+
+    &__heading{
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 1px 1px white,
+        2px 2px #777;
+        color: black;
+        transition: all 1s; 
+    }
+
+    &__link {
+        text-decoration: none;
+        border:1px solid #0181b8;
+        border-radius:3px;
+        
+        padding: 0 5px 2px 5px; 
+        color: white; 
+        background: #0181b8;
+    }
+    &__button {
+        display: none;
+    }
+
+    &__activity{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #4d86f6;
+        height: 70%;
+        align-items: center;
+    }
+}
+
+.content__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+}
